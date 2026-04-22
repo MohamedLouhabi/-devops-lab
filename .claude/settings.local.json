@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(kubectl get:*)",
+      "Bash(kubectl cluster-info:*)",
+      "Bash(kubectl config:*)",
+      "Bash(curl -v http://localhost:30974/)",
+      "Bash(kubectl logs:*)"
+    ]
+  }
+}
