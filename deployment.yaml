@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: localhost:5001/webapp:latest
+        image: 172.17.0.1:5001/webapp:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
